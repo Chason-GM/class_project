@@ -24,9 +24,39 @@ const Contact = () => {
             >
                 <h2 className={`${styles.sectionHeadText}`}>Conclusion</h2>
                 {/* <p className={`${styles.sectionSubText} `}>overall</p> */}
-                <div className='mt-5 text-secondary text-[17px] max-w-4xl leading-[30px]'>
-                    After dedicating <span className=" text-orange-600 font-bold">days</span> and <span className=" text-yellow-600 font-bold">hours</span> to this project, I’ve spent a significant amount of time researching models, learning tools, frameworks, and techniques from <span className=" text-red-600 font-bold">Youtube</span>, and <span className=" text-green-500 font-bold">reviving</span> an old project from nearly <span className=" text-white font-bold">two</span> years ago. This involved troubleshooting version compatibility issues, adjusting dependencies, and carefully outlining and designing the project. I clearly explain my <span className=" text-blue-500 font-bold">thought</span> process and <span className=" text-red-600 font-bold">challenges</span> across various sections of the website. Additionally, I invested more time searching for suitable <span className=" text-orange-600 font-bold">3D</span> models, <span className=" text-pink-400 font-bold">music</span>, and continuously fixing numerous <span className=" text-red-600 font-bold">errors</span> over and over, making adjustments until everything came together perfectly in the end. It's not just me <span className=" text-green-500 font-bold">reviving</span> this project, this project is also <span className=" text-green-500 font-bold">reviving</span> me, rekindling my <span className=" text-purple-500 font-bold">passion</span> for web development and bringing me back to the craft. Also I’ve decided not to include a recording because, in my view, if the quality of the work is strong enough, there’s no need for a presenter narrating over it. The project should be able to speak for itself.
+                <div className="mt-5 text-secondary text-[17px] max-w-4xl leading-[30px]">
+                    In this project, we successfully developed a
+                    <span className="text-blue-400 font-semibold"> face recognition model </span>
+                    using
+                    <span className="text-yellow-400 font-semibold"> MobileNetV2 </span>
+                    with
+                    <span className="text-green-400 font-semibold"> high accuracy</span>. Through careful
+                    <span className="text-purple-400 font-semibold"> dataset preparation</span>,
+                    <span className="text-purple-400 font-semibold"> augmentation</span>, and
+                    <span className="text-purple-400 font-semibold"> model fine-tuning</span>, our model was able to
+                    <span className="text-pink-400 font-semibold"> effectively distinguish between different individuals</span>. The results showed that our approach was
+                    <span className="text-green-400 font-semibold"> highly effective</span>, achieving
+                    <span className="text-green-400 font-semibold"> excellent performance</span> on both training and validation data.
+                    <br /><br />
+                    However, this achievement did not come easily. The process involved
+                    <span className="text-orange-400 font-semibold"> days of continuous effort</span>, from dealing with
+                    <span className="text-red-400 font-semibold"> data conversion challenges</span> to
+                    <span className="text-red-400 font-semibold"> debugging complex issues</span> in model training. There were
+                    <span className="text-red-300 font-semibold"> moments of frustration</span>, especially when things didn’t work as expected, but
+                    <span className="text-green-400 font-semibold"> overcoming these obstacles</span> made the success even more rewarding.
+                    <span className="text-blue-400 font-semibold"> This project was not just about building a model</span>—it was a test of
+                    <span className="text-yellow-300 font-semibold"> patience</span>,
+                    <span className="text-yellow-300 font-semibold"> problem-solving</span>, and
+                    <span className="text-yellow-300 font-semibold"> determination</span>.
+                    <br /><br />
+                    In the end, the experience of working on such a challenging task was
+                    <span className="text-green-300 font-semibold"> invaluable</span>. It reinforced the importance of
+                    <span className="text-pink-300 font-semibold"> persistence</span> and
+                    <span className="text-pink-300 font-semibold"> continuous learning</span> in machine learning and deep learning. While the journey was tough, the results proved that
+                    <span className="text-green-400 font-semibold"> hard work and dedication truly pay off</span>.
+                    <span className="text-blue-400 font-semibold"> It would be really nice if I could add everyone in KDAI and use this on the 7th floor.</span>
                 </div>
+
             </motion.div>
             {/* <div className='w-full flex mt-[30px]'>
                 <motion.p
@@ -46,4 +76,4 @@ const Contact = () => {
     );
 };
 
-export default SectionWrapper(Contact, "contact");
+export default SectionWrapper(Contact, "conclusion");

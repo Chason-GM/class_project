@@ -6,8 +6,10 @@ import Argument from './Argument';
 import Works from './Works';
 import References from './References';
 import Conclude from './Conclude';
+import FaceRecogCam from './FaceRecogCam';
 
 export {
+  FaceRecogCam,
   Hero,
   Navbar,
   About,

@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => {
           className='bg-tertiary rounded-[20px] py-3 px-4 min-h-[280px] 
                     flex justify-evenly items-center flex-col'
         >
-          <img src={icon} alt={title} className='w-64 h-64 object-contain'/>
+          <img src={icon} alt={title} className='w-64 h-64 object-contain' />
           <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
         </div>
       </motion.div>
@@ -38,7 +38,8 @@ const About = () => {
         variants={fadeIn("", "", 0.2, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        This is our <span className='text-orange-500 font-bold'>Face</span> Recognition project for the <span className="text-purple-600 font-bold">CNN</span> class. Given the limited time, instead of reusing our previous projects like the <span className='text-blue-500 font-bold'>PM2.5</span> regression model or the <span className='text-red-600 font-bold'>Default</span> prediction classification model, we decided to explore something new. We wanted to solve a real problem, so we came up with the idea of using <span className='text-yellow-500 font-bold'>face recognition</span> to verify our friends’ identities. <span className='text-green-600 font-bold'>For example</span>, on the 7th floor, we need to use student cards to enter, but some of us have lost our cards. So we thought why not use face recognition instead? Since we've already learned about <span className='text-green-500 font-bold'>neural networks</span>, this would be a great opportunity to <span className='text-red-600 font-bold'>apply</span> them.
+        <span className='text-orange-600 font-bold'>Face</span> recognition is a widely used technology in <span className='text-red-600 font-bold'>security</span>, <span className='text-green
+        text-green-600 font-bold'>authentication</span>, and <span className='text-sky-600 font-bold'>access</span> control systems. This project focuses on developing a face recognition system from Data Science and AI Platform class.  Given the limited time, instead of reusing our previous projects like the <span className='text-blue-500 font-bold'>PM2.5</span> regression model or the <span className='text-red-600 font-bold'>Default</span> prediction classification model, we decided to explore something new. We wanted to solve a real problem, so we came up with the idea of using <span className='text-yellow-500 font-bold'>face recognition</span> to verify our friends’ identities. <span className='text-green-600 font-bold'>For example</span>, on the 7th floor, we need to use student cards to enter, but some of us have lost our cards. So we thought why not use face recognition instead? Since we've already learned about <span className='text-green-500 font-bold'>neural networks</span>, this would be a great opportunity to <span className='text-red-600 font-bold'>apply</span> them.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

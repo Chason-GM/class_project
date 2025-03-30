@@ -1,11 +1,11 @@
 Model Information:
-* title:	Open Eye Crying Laughing Emoji
-* source:	https://sketchfab.com/3d-models/open-eye-crying-laughing-emoji-374d29cb34cc4f699ab9d948ea46ef91
-* author:	liam (https://sketchfab.com/Z2r)
+* title:	Nobita From Doraemon
+* source:	https://sketchfab.com/3d-models/nobita-from-doraemon-f24c818752d846159854501dd49602a3
+* author:	mfxmotions (https://sketchfab.com/mfxmotions)
 
 Model License:
 * license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
 * requirements:	Author must be credited. Commercial use is allowed.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "Open Eye Crying Laughing Emoji" (https://sketchfab.com/3d-models/open-eye-crying-laughing-emoji-374d29cb34cc4f699ab9d948ea46ef91) by liam (https://sketchfab.com/Z2r) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Nobita From Doraemon" (https://sketchfab.com/3d-models/nobita-from-doraemon-f24c818752d846159854501dd49602a3) by mfxmotions (https://sketchfab.com/mfxmotions) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

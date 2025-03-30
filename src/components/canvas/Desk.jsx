@@ -39,9 +39,12 @@ const Desk = ({ isMobile, isMedium }) => {
 
       <primitive
         object={scene}
-        scale={ isMobile ? 0.67 : isMedium ? 0.78 : 1}
-        position={isMobile ? [0, -1.85, 0.25] : isMedium ? [0, -2.5, 0.25] : [0.8, -2.25, 1.0]}
-        rotation={[0, -0.2, -0.15]}
+        scale={ isMobile ? 0.87 : isMedium ? 0.98 : 1.2}
+        // position={isMobile ? [0, -1.85, 0.25] : isMedium ? [0, -2.5, 0.25] : [0.8, -2.25, 1.0]}
+        position={isMobile ? [0, -10.25, 0.25] : isMedium ? [0, -10.25, 0.25] : [1.8, -10.25, 0.9]}
+
+        // rotation={[0, -0.2, -0.15]}
+        rotation={[0, 0.5, 0]}
         castShadow
         receiveShadow
       />
@@ -79,7 +82,7 @@ const DeskCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [10, 4, 20], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -87,13 +90,13 @@ const DeskCanvas = () => {
           // enableZoom={false}
           // maxPolarAngle={Math.PI / 1.8}
           // minPolarAngle={0}
-          autoRotate
-          autoRotateSpeed={5}
+          // autoRotate
+          // autoRotateSpeed={5}
           enableZoom={false}
-          maxPolarAngle={Math.PI}
-          minPolarAngle={0}
-        // maxPolarAngle={Math.PI}    // Allow looking all the way up (180°)
-        // minPolarAngle={0}          // Allow looking all the way down (0°)
+          // maxPolarAngle={Math.PI}
+          // minPolarAngle={0}
+          maxPolarAngle={Math.PI / 2}    // Allow looking all the way up (180°)
+          minPolarAngle={Math.PI / 2}          // Allow looking all the way down (0°)
         // maxAzimuthAngle={Infinity} // No limit on left-right rotation
         // minAzimuthAngle={-Infinity}
         />

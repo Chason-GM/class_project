@@ -12,72 +12,132 @@ import { textVariant } from '../utils/motion'
 
 
 const contentMap = {
-  "Attendance": (
+  "Data Collection": (
     <span className="mt-5 space-y-2 text-[#f3f3f3] tracking-wider">
-      I <span className="text-green-600 font-bold">attend</span> every class (except for the first one), not because there is no attendance
-      <span className="text-yellow-600 font-bold"> requirements</span>, but because I genuinely want to <span className="text-green-600 font-bold">learn</span> every lesson.
-      For me, learning is about actively engaging with the <span className="text-blue-500 font-bold">material</span>, gaining new perspectives,
-      and <span className="text-red-600 font-bold">challenging</span> my understanding. I believe that being present in class allows me to absorb
-      knowledge more effectively, ask questions in my <span className="text-red-600 font-bold">HEAD</span>, and deepen my critical thinking skills.
-      The backed evidence of this is you see me every class.
-    </span>
-  ),
-  "Discipline": (
-    <span className="mt-5 space-y-2 text-[#f3f3f3] tracking-wider">
-      I always arrive <span className="text-blue-500 font-bold">early </span>
-      to class because I have the discipline of waking up at <span className="text-orange-600 font-bold">4:00 </span>
-      am every single day. This makes it <span className="text-green-600 font-bold">easy </span>
-      for me to be on time. While waiting for teacher, I usually spend time <span className="text-red-600 font-bold">self-studying</span>,
-      working on homework or projects, or playing online chess. The backed evidence of this is you see me everytime before class.
-    </span>
-  ),
-  "Pay Attention": (
-    <span>
-      I always pay close <span className="text-red-600 font-bold">attention</span> to the teacher and rarely use my phone unless it's to note down
-      <span className="text-pink-400 font-bold"> keywords</span> from the class. I usually prefer <span className="text-red-600 font-bold">not</span> to take notes during the lecture, as I believe that
-      actively listening, thinking critically, and questioning the content in the real-time is <span className="text-blue-500 font-bold">sufficient</span>.
-      If needed, I take notes after class to help recall my thought process. The backed evidence of this is you see me paying attention in every class.
-    </span>
-  ),
-  "Urban Zombie Apocalypse": (
-    <span>
-      I always put significant <span className="text-blue-500 font-bold">effort</span> into every project or classwork, especially this final project.
-      For example, the <span className="text-green-700 font-bold">"Urban Zombie Apocalypse"</span> homework took me around <span className="text-orange-600 font-bold">6</span> hours
-      to brainstorm multiple plans, merge them into a single,
-      solid <span className="text-green-400 font-bold">Plan A</span>,
-      and design the slides. Even though the slides contained a lot of text,
-      I wanted to thoroughly explain the <span className="text-red-600 font-bold">reasoning</span> behind selecting or rejecting certain items,
-      as well as the overall plan. I also used <span className="text-blue-500 font-bold">counterexamples</span> to <span className="text-red-600 font-bold">challenge</span> and adjust the plan until
-      it felt as reasonable as possible. The backed evidence of this is the project in the google classroom.
-    </span>
-  ),
-  "The Evergreen High Mystery": (
-    <span>
-      I Dedicating a lot of time to the midterm exam,
-      <span className="text-green-600 font-bold">"The Evergreen High Mystery"</span>, even
-      though I still don’t fully understand the <span className="text-green-600 font-bold">truth</span>,
-      and many <span className="text-purple-500 font-bold">components</span>&nbsp;
-      didn’t seem to add up. I spent <span className="text-orange-600 font-bold">hours</span>&nbsp;
-      discussing with a friend, <span className="text-blue-500 font-bold">questioning</span>&nbsp;
-      whether my assumptions were <span className="text-green-600 font-bold">correct</span>.
-      I also designed detailed slides, including a timeline, evidence, hypotheses, and conclusions,
-      while applying <span className="text-red-600 font-bold">critical thinking</span> throughout the process.
-      In the end, I trusted my friend to record and present the video (choosing not to watch it because I trust in his abilities).
-      The backed evidence of this is the project in the google classroom.
+      We have collected about 50-100 photos from each of our friends.
+      Then mount Google Colab with Google Drive
+      <br />
 
     </span>
   ),
-  "This 3D Website": (
-    <span>
-      This <span className="text-red-600 font-bold">final </span>3D Object Movable Web project took me about <span className="text-orange-600 font-bold">43</span> hours which is over <span className="text-orange-600 font-bold">5</span> days continuously doing this <span className="text-blue-500 font-bold">(used a timer)</span> while also
-      managing my time for upcoming exams in other subjects. I chose to take on this <span className="text-red-600 font-bold">challenge</span> to
-      <span className="text-green-600 font-bold"> revive</span> an old project and <span className="text-blue-500 font-bold">refresh</span> my skills in modifying it. Throughout the process, I faced
-      many difficulties, including numerous <span className="text-red-600 font-bold">RED ERROR</span>s, <span className="text-yellow-600 font-bold">WARNING</span>s, and the pressure of other project
-      and exam <span className="text-red-600 font-bold">DEADLINE</span>s approaching. Despite the challenges, I have no regrets. I believe this <span className="text-green-600 font-bold">experience </span>
-      was the best way for me to develop my thought process, as well as my <span className="text-red-600 font-bold">critical</span> and creative thinking
-      skills. The backed evidence of this is what you are viewing right now.
+  "Installs": (
+    <span className="mt-5 space-y-2 text-[#f3f3f3] tracking-wider">
+      <b className="text-orange-500">TensorFlow: </b>
+      this is widely used for building and training deep learning models, which we will use for image classification.
+      <br />
+      <b className='text-orange-500'>Matplotlib: </b>
+      Obviously for data visualization.
+      <br />
+      <b className='text-orange-500'>Pyheif: </b>
+      used for Loading and processing HEIF images in Python.
+      <br />
+      <b className='text-orange-500'>Pillow: </b>
+      used for saving images in different formats (JPEG, PNG, etc.).
+
+      <br />
+      <b className='text-orange-500'>Filetype: </b>
+      Identifying file types.
     </span>
-  )
+  ),
+  "Imports": (
+    <span className="mt-5 space-y-2 text-[#f3f3f3] tracking-wider">
+      {/* os */}
+      <span className='text-purple-500 font-bold'>import</span> os<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Used for working with file paths and make directories in Google Drive.</span>
+      <br />
+
+      {/* shutil */}
+      <span className='text-purple-500 font-bold'>import</span> shutil<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Used for copying, moving, or deleting files and directories.</span>
+      <br />
+
+      {/* train_test_split */}
+      {/* <span className='text-purple-500 font-bold'>from</span> sklearn.model_selection  */}
+      <span className='text-purple-500 font-bold'>import</span> train_test_split<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Used for splitting images into training and testing datasets.</span>
+      <br />
+
+      {/* load_model */}
+      {/* <span className='text-purple-500 font-bold'>from</span> tensorflow.keras.models  */}
+      <span className='text-purple-500 font-bold'>import</span> load_model<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Loads a saved model to test it with new, unseen images for classification.</span>
+      <br />
+
+      {/* ImageDataGenerator */}
+      {/* <span className='text-purple-500 font-bold'>from</span> tensorflow.keras.preprocessing.image  */}
+      <span className='text-purple-500 font-bold'>import</span> ImageDataGenerator<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Preprocesses and augments image data. Automatically resizes, normalizes, and creates batches.</span>
+      <br />
+
+      {/* MobileNetV2 */}
+      {/* <span className='text-purple-500 font-bold'>from</span> tensorflow.keras.applications  */}
+      <span className='text-purple-500 font-bold'>import</span> MobileNetV2<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Loads a lightweight pretrained model for transfer learning, ideal for image classification tasks.</span>
+      <br />
+
+      {/* Layers */}
+      {/* <span className='text-purple-500 font-bold'>from</span> tensorflow.keras.layers  */}
+      <span className='text-purple-500 font-bold'>import</span> GlobalAveragePooling2D, Dense<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Used to add custom layers: pooling reduces feature maps, Dense creates fully-connected layers.</span>
+      <br />
+
+      {/* Model */}
+      {/* <span className='text-purple-500 font-bold'>from</span> tensorflow.keras.models  */}
+      <span className='text-purple-500 font-bold'>import</span> Model<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Allows custom model building by connecting layers from input to output manually.</span>
+      <br />
+
+      {/* Callbacks */}
+      {/* <span className='text-purple-500 font-bold'>from</span> tensorflow.keras.callbacks  */}
+      <span className='text-purple-500 font-bold'>import</span> EarlyStopping, ModelCheckpoint<span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Helps stop training early if the model stops improving, and saves the best-performing model.</span>
+      <br />
+
+      {/* numpy */}
+      <span className='text-purple-500 font-bold'>import</span> numpy
+      {/* <span className='text-purple-500 font-bold'>as</span> np */}
+      <span className='text-red-500 font-bold'>: </span><br />
+      <span className='ml-[10px]'>Handles numerical operations, arrays, and matrix transformations efficiently.</span>
+      <br />
+
+
+    </span>
+
+  ),
+  "Convert Images": (
+    <span className="mt-5 space-y-2 text-[#f3f3f3] tracking-wider">
+      We looped through the image files to rename them with the corresponding person’s name.
+      <br />
+      For compatibility, we used <b className='text-orange-500'>Pyheif</b> and <b className='text-orange-500'>Pillow</b> to convert HEIC files into JPEG format.
+    </span>
+  ),
+  "Train Test Split": (
+    <span className="mt-5 space-y-2 text-[#f3f3f3] tracking-wider">
+      The dataset is <b className='text-orange-500'>divided</b> into training and testing sets, with <b className='text-orange-500'>80%</b> of the images allocated for training and <b className='text-orange-500'>20%</b> for testing. The shutil and os modules were used to create a new folder and copy face_data into it. This new folder, face_data_split, contains separate train and test directories for <b className='text-orange-500'>each</b> individual.
+    </span>
+  ),
+  "Train the CNN model": (
+    <span className="mt-5 space-y-2 text-[#f3f3f3] tracking-wider">
+      We used a pretrained <b className='text-orange-500'>MobileNetV2</b> model with the top layer removed to extract features from the images.
+      <br />
+      Then, we added our own <b className='text-orange-500'>Dense layers</b> on top to classify each face.
+      <br />
+      The training process involved <b className='text-orange-500'>forward propagation</b>, <b className='text-orange-500'>loss calculation</b>, <b className='text-orange-500'>backpropagation</b>, and <b className='text-orange-500'>weight updates</b> using the Adam optimizer.
+      <br />
+      {/* We used <b className='text-orange-500'>EarlyStopping</b> to stop training when the validation loss stopped improving, helping to avoid overfitting. */}
+    </span>
+  ),
+  "Save, Export Test": (
+    <span className="mt-5 space-y-2 text-[#f3f3f3] tracking-wider">
+      Once trained, the model was saved as a <b className='text-orange-500'>.h5 file</b> using TensorFlow’s <code>model.save()</code> function.
+      <br />
+      The label mapping (class names) was saved separately as a <b className='text-orange-500'>.pkl file</b> using Python’s <code>pickle</code> module.
+      <br />
+      For testing, a new image can be loaded, resized to 224×224 pixels, and passed through the model to get predictions.
+      <br />
+      The model returns a confidence score and the predicted class name using the label mapping file.
+    </span>
+  ),
 
 };
 
@@ -110,7 +170,7 @@ const ArgumentCard = ({ arg }) => {
       <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>
         {arg.subtitle}
       </p>
-      <p className='mt-[5px] '>
+      <p className='mt-[5px]'>
         {arg.content}
       </p>
     </div>
@@ -120,17 +180,15 @@ const Argument = () => {
   return (
     <>
       <motion.div variants={textVariant}>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Argument and Evidence</h2>
-        <p className={`${styles.sectionSubText} text-center`}>Showing arguments backed by evidence</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Procedure</h2>
+        <p className={`${styles.sectionSubText} text-center`}>Steps throughout the entire process</p>
 
       </motion.div>
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {
             args.map((arg, index) => (
-              <ArgumentCard key={index} arg={arg}/>
-
-
+              <ArgumentCard key={index} arg={arg} />
             ))
           }
         </VerticalTimeline>
@@ -139,4 +197,4 @@ const Argument = () => {
   )
 }
 
-export default SectionWrapper(Argument, "argument")
+export default SectionWrapper(Argument, "step")

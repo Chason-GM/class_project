@@ -16,12 +16,17 @@ import {
   rmag,
   rlight,
   rcreative,
+
+  collect,
   attend,
   discipline,
   focus,
   zombs,
   mystery,
   final,
+
+  nobi,
+  rocket,
 } from "../assets";
 
 export const navLinks = [
@@ -30,13 +35,13 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "content",
-    title: "Content",
+    id: "objective",
+    title: "Objectives",
   },
-  // {
-  //   id: "argument",
-  //   title: "Argument",
-  // },
+  {
+    id: "step",
+    title: "Steps",
+  },
   {
     id: 'conclusion',
     title: "Conclusion"
@@ -65,45 +70,52 @@ const services = [
 
 const argcon = [
   {
-    title: "Attendance",
-    subtitle: "I Care",
+    title: "Data Collection",
+    subtitle: "Gather images",
+    icon: collect,
+    iconBg: "white",
+    date: "Nov 2024 - March 2025",
+  },
+  {
+    title: "Installs",
+    subtitle: "Install important libraries",
     icon: attend,
     iconBg: "#f3f3f3",
     date: "Nov 2024 - March 2025",
   },
   {
-    title: "Discipline",
-    subtitle: "Early Bird",
+    title: "Imports",
+    subtitle: "Import important libraries",
     icon: discipline,
-    iconBg: "#000000",
+    iconBg: "white",
     date: "Nov 2024 - March 2025",
   },
   {
-    title: "Pay Attention",
-    subtitle: "Focus",
+    title: "Convert Images",
+    subtitle: ".heic -> .jpg",
     icon: focus,
-    iconBg: "#f3f3f3",
+    iconBg: "#000000",
     date: "Nov 2024 - March 2025",
   },
   {
-    title: "Urban Zombie Apocalypse",
-    subtitle: "First Homework",
+    title: "Train Test Split",
+    subtitle: "80% train 20% test",
     icon: zombs,
-    iconBg: "#000000",
-    date: "Nov 2024 - March 2025",
-  },
-  {
-    title: "The Evergreen High Mystery",
-    subtitle: "Midterm-project",
-    icon: mystery,
     iconBg: "#f3f3f3",
     date: "Nov 2024 - March 2025",
   },
   {
-    title: "This 3D Website",
-    subtitle: "Final-project",
+    title: "Train the CNN model",
+    subtitle: "Make things work",
+    icon: mystery,
+    iconBg: "white",
+    date: "Nov 2024 - March 2025",
+  },
+  {
+    title: "Save, Export Test",
+    subtitle: "Save and export to this web",
     icon: final,
-    iconBg: "#000000",
+    iconBg: "white",
     date: "Nov 2024 - March 2025",
   },
 
@@ -111,17 +123,17 @@ const argcon = [
 
 
 const projects = [
-  // {
-  //   name: "Detective Desk",
-  //   description:
-  //     "I downloaded 3D model from this website, and displayed on the website.",
+  {
+    name: "Nobita Model",
+    description:
+      "I downloaded 3D model from this website, and displayed on the website.",
 
-  //   author: "Josh3Dmodels",
-  //   image: desk,
-  //   source_code_link: "https://sketchfab.com/3d-models/detectives-desk-0dc230bb8feb45bba007ea174037fcdc/",
-  //   imgSource: sketchfab,
-  //   bg: "bg-white"
-  // },
+    author: "mfxmotions",
+    image: nobi,
+    source_code_link: "https://sketchfab.com/3d-models/nobita-from-doraemon-f24c818752d846159854501dd49602a3",
+    imgSource: sketchfab,
+    bg: "bg-white"
+  },
   {
     name: "JS Mastery",
     description:
@@ -153,16 +165,16 @@ const projects = [
     imgSource: sketchfab,
     bg: "bg-white"
   },
-  // {
-  //   name: "Old Paper",
-  //   description:
-  //     "I downloaded 3D model from this website, and displayed on the website.",
-  //   author: "tukuru_kunn",
-  //   image: oldpaper,
-  //   source_code_link: "https://sketchfab.com/3d-models/old-paper-0a7cf9d5bf7742b3a711d39eed36332f",
-  //   imgSource: sketchfab,
-  //   bg: "bg-white"
-  // },
+  {
+    name: "Low Poly Rocket",
+    description:
+      "I downloaded 3D model from this website, and displayed on the website.",
+    author: "ThatBrianDude",
+    image: rocket,
+    source_code_link: "https://sketchfab.com/3d-models/low-poly-rocket-89e69040a4874e789bd8d07f8b94d29a",
+    imgSource: sketchfab,
+    bg: "bg-white"
+  },
   {
     name: "Relaxing Jazz Saxophone",
     description:

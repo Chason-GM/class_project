@@ -2,57 +2,45 @@ import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
-
-
+import { slideIn, fadeIn } from "../utils/motion";
+import RocketCanvas from "./canvas/Rocket";
 
 const Works = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionHeadText}`}>My Creativity</h2>
-        <p className={`${styles.sectionSubText} `}>explanation of thought</p>
+    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
+      {/* Left side with objectives text */}
+      <motion.div
+        variants={fadeIn("", "", 0.2, 1)}
 
-      </motion.div>
-
-      <div className='w-full flex mt-[30px]'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-4xl leading-[30px]'
-        >
-          I chose <span className=" text-blue-400 font-bold">"a relaxing jazz saxophone music"</span> because I believe that when we're working on something, listening to calm jazz music can be incredibly soothing and inspiring. Although I usually prefer not to listen to anything while working, but <span className=" text-pink-400 font-bold">jazz</span> you know is just an exception. in my opinion It gives off this <span className=" text-purple-600 font-bold">classic</span> detective  vibe, like sitting at a desk, deep in thought, solving <span className="text-yellow-500 font-bold">mystery</span> cases. That’s why I searched for a <span className="text-red-600 font-bold">"detective desk model"</span> and it fits the theme perfectly. like Imagine using critical thinking to crack a fictional murder case, which I thought would align well with the theme of the <span className="text-red-600 font-bold">Critical Thinking</span>’s class. And logo as a cat representing "C" from my name <span className="font-bold text-white">"Check"</span>
-
-        </motion.p>
-      </div>
-
-
-
-      {/* <motion.div variants={textVariant()}
-        className="mt-[300px]"
+        className="flex-[0.75] bg-black-100 p-10 py-19 rounded-2xl"
       >
-        <h2 className={`${styles.sectionHeadText}`}>Conclusion</h2>
-        <p className={`${styles.sectionSubText} `}>overall</p>
+        <h2 className={styles.sectionHeadText}>Objectives</h2>
+
+        <div className="mt-5 text-secondary text-[17px] max-w-4xl leading-[30px]">
+          <ul>
+            <li>
+              1. To learn and implement the concept that we study in class into a real project.
+            </li>
+            <li>
+              2. To deploy a predictive model into real-world scenarios and utilize it.
+            </li>
+            <li>3. To enhance the model performance.</li>
+            <li>4. To explore ethical and security aspects of face recognition.</li>
+            <li>5. To enhance teamwork, problem-solving, and presentation skills.</li>
+          </ul>
+        </div>
       </motion.div>
 
-      <div className='w-full flex mt-[30px]'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-4xl leading-[30px]'
-        >
-          After dedicating countless days and hours to this project, I’ve spent a significant amount of time researching models, learning tools, frameworks, and techniques from YouTube, and reviving an old project from nearly two years ago. This involved troubleshooting version compatibility issues, adjusting dependencies, and carefully outlining and designing the project. I clearly explain my thought process and challenges across various sections of the website. Additionally, I invested a lot of time searching for suitable 3D models, music, and continuously fixing numerous import errors, making adjustments until everything came together perfectly in the end. It's not just me reviving this project—this project is also reviving me, rekindling my passion for web development and bringing me back to the craft.
-        </motion.p>
-      </div> */}
+      {/* Right side with RocketCanvas */}
+      <motion.div
+        variants={fadeIn("", "", 0.2, 1)}
 
-
-
-
-
-
-
-
-
-    </>
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+      >
+        <RocketCanvas />
+      </motion.div>
+    </div>
   );
 };
 
-export default SectionWrapper(Works, "conclusion");
+export default SectionWrapper(Works, "objective");

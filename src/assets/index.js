@@ -14,13 +14,13 @@ import rcreative from './dora3.gif'
 
 
 
-
-import attend from "./company/attend.png";
-import discipline from "./company/discipline.png"
-import focus from "./company/focus.png"
-import zombs from "./company/zombs2.png"
-import mystery from "./company/mystery.png"
-import final from "./company/final.png"
+import collect from "./company/collect.png"
+import attend from "./company/imp.png";
+import discipline from "./company/import.png"
+import focus from "./company/heic.png"
+import zombs from "./company/split.png"
+import mystery from "./company/cnn.png"
+import final from "./company/save.png"
 
 
 
@@ -38,7 +38,8 @@ import pixelbay from './pixabay.png'
 import youtube from "./youtube.jpg"
 import fireshiplogo from "./fireshiplogo.png"
 
-
+import nobi from "./nobi.png"
+import rocket from "./rocket.png"
 
 
 
@@ -54,6 +55,7 @@ export {
   sun,
   youtube,
 
+  collect,
   attend,
   discipline,
   focus,
@@ -74,8 +76,8 @@ export {
   menu,
   close,
 
-
-
+  nobi,
+  rocket,
 
 
 

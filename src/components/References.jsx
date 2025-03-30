@@ -84,6 +84,18 @@ const References = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
+
+      <div className="mt-[20px] text-white text-lg font-medium">
+        Big Thanks to{" "}
+        <span className="text-pink-400 font-bold">Fame</span>,{" "}
+        <span className="text-red-400 font-bold">Love</span>,{" "}
+        <span className="text-yellow-400 font-bold">Nene</span>,{" "}
+        <span className="text-green-400 font-bold">New</span>,{" "}
+        <span className="text-blue-400 font-bold">Prin</span>,{" "}
+        <span className="text-purple-400 font-bold">Scale</span>,{" "}
+        <span className="text-teal-400 font-bold">Vic</span>, and{" "}
+        <span className="text-orange-400 font-bold">Yorch</span> for training images
+      </div>
     </>
   );
 };
